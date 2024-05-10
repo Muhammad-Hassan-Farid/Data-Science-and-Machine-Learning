@@ -1,0 +1,23 @@
+p,input {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mydiv{
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+input[type='submit']{
+    color: Red;
+    background-color: #c58a15;
+    width: 100px;
+    border-radius: 50px;
+    height: 60px;
+}

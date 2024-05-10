@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Tumor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body style="background-image: url('static/images/Backgroud-brain-tumor.jpg'); background-repeat:no-repeat; background-size: 100%; ">
+    <div id="mydiv">
+        <p>Click on the "Choose File" button to upload a file:</p>
+
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" id="myImg" name="filename"> <br><br><br><br>
+            <input type="submit">
+        </form>
+        <h3>The Has has {{ result }}</h3>
+    </div>
+</body>
+</html>
